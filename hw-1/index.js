@@ -44,8 +44,8 @@ console.log(rezultat3);
 console.log("rezultat4");
 const prosekKumanovo = studenti.map((x) => x.grad === "Kumanovo" && x.prosek);
 
-const sumProsek = prosekKumanovo.reduce((a, vrednost) => a + vrednost,);
-console.log(`vkupen prosek na studenti od Kumanovo  ${sumProsek}`);
+  const sumProsek = prosekKumanovo.reduce((a, vrednost) => a + vrednost,);
+  console.log(`vkupen prosek na studenti od Kumanovo  ${sumProsek}`);
 
 //? 5. Просек на просеците од градовите Скопје и Охрид
 console.log("rezultat5");
