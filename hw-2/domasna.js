@@ -39,7 +39,16 @@ function parNepar(n) {
         console.log(`${n} e neparen`);
     };
 };
-parNepar(16)
+
+
+
+module.exports = {
+    fToC,
+    cToF,
+    perimetar,
+    plostina,
+    parNepar
+};
 
 
 
