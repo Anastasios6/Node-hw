@@ -3,36 +3,42 @@
     "redenBr": "2",
     "grad": "Skopje",
     "prosek": 10,
-    "ime": "Gorast",
+    "ime": "GorastB",
     "Prezime": "Cvetanov"
   },
   {
     "redenBr": "3",
     "grad": "Ohrid",
     "prosek": 10,
-    "ime": "Martin",
+    "ime": "MartinB",
     "Prezime": "Risteski"
   },
   {
     "redenBr": "4",
     "grad": "Ohrid",
     "prosek": 6,
-    "ime": "Nikola",
+    "ime": "NikolaB",
     "Prezime": "Trpevski"
   },
   {
     "redenBr": "5",
     "grad": "Tetovo",
     "prosek": 9,
-    "ime": "MihailB",
+    "ime": "MihailBB",
     "Prezime": "Ivanovski"
   },
   {
     "redenBr": "6",
     "grad": "Skopje",
     "prosek": 7,
-    "ime": "KristijanB",
+    "ime": "KristijanBB",
     "Prezime": "Nikolov"
+  },
+  {
+    "redenBr": 7,
+    "grad": "Kriva Palanka",
+    "prosek": 9.5,
+    "ime": "ZoranB",
+    "Prezime": "Ivanov"
   }
-
 ]

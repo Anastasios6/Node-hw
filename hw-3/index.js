@@ -61,7 +61,7 @@ async function studentDel() {
         console.error(err);
     }
 }
-
+//stavena so samo delete po prosek 5. 
 
 async function main() {
     await addStudent();
