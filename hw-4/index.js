@@ -1,7 +1,7 @@
 const http = require('http');
 //? Servis koj kje obrabotuva ruti od sledniot tip
 const handler = (req, res) => {
-    let greeting = "hello";
+   
     if (req.url.startsWith('/ime/') && req.method === 'GET') {
         const parts = req.url.split("/");
         //da go povlecam imeto od url-to
