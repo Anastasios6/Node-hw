@@ -8,7 +8,7 @@ const handler = (req, res) => {
         const karakteri = name.length;
         const lowerCaseName = name.toLowerCase();
         const samoglaski = ['a', 'e', 'i', 'o', 'u'];
-
+            
         let samoglaskiCount = 0;
         let soglaskiCount = 0;
 
