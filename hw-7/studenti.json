@@ -1,0 +1,27 @@
+[
+  {
+    "ime": "Marko",
+    "prezime": "Marković",
+    "prosek": 9.2
+  },
+  {
+    "ime": "Jana",
+    "prezime": "Stojanovska",
+    "prosek": 8.5
+  },
+  {
+    "ime": "Luka",
+    "prezime": "Petrovski",
+    "prosek": 7.8
+  },
+  {
+    "ime": "Elena",
+    "prezime": "Petrova",
+    "prosek": 10
+  },
+  {
+    "ime": "Stefan",
+    "prezime": "Jovanovic",
+    "prosek": 6.4
+  }
+]
