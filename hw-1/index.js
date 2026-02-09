@@ -27,7 +27,7 @@ console.log("Rezultat2");
 
 const rezultat2 = studenti
   .filter(studenti => studenti.grad !== "Skopje" && studenti.prosek > 9)
-   .sort((a, b) => b.prosek - a.prosek);
+  .sort((a, b) => b.prosek - a.prosek);
 
 console.log(rezultat2);
 
@@ -44,16 +44,16 @@ console.log(rezultat3);
 console.log("rezultat4");
 const prosekKumanovo = studenti.map((x) => x.grad === "Kumanovo" && x.prosek);
 
-  const sumProsek = prosekKumanovo.reduce((a, vrednost) => a + vrednost,);
-  console.log(`vkupen prosek na studenti od Kumanovo  ${sumProsek}`);
+const sumProsek = prosekKumanovo.reduce((a, vrednost) => a + vrednost,);
+console.log(`vkupen prosek na studenti od Kumanovo  ${sumProsek}`);
 
 //? 5. Просек на просеците од градовите Скопје и Охрид
 console.log("rezultat5");
 const studentiSkopje = studenti
-  .filter(studenti => studenti.grad === "Skopje")
+  .filter(studenti => studenti.grad === "Skopje");
 console.log(studentiSkopje);
 const studentiOhrid = studenti
-  .filter(studenti => studenti.grad === "Ohrid")
+  .filter(studenti => studenti.grad === "Ohrid");
 console.log(studentiOhrid);
 
 const prosekSkopje = studentiSkopje.length > 0
@@ -78,7 +78,7 @@ console.log(studenti);
 
 //? 7. Да се избрише првиот студент во студенти
 console.log("Rezultat 7");
-studenti.shift()
+studenti.shift();
 console.log(studenti);
 
 //? 8. Да се креира нов array каде што студентите од Охрид и Куманово каде што оценките со просек се за 1 поголем(Динамички)
@@ -88,14 +88,14 @@ const ocenkiProsekOhrid = studentiOhrid.map((s) => {
     ...s, prosek: s.prosek + 1,
   };
 });
-const studentiKumanovo = studenti.filter(studenti => studenti.grad === "Kumanovo")
+const studentiKumanovo = studenti.filter(studenti => studenti.grad === "Kumanovo");
 const ocenkiProsekKumanovo = studentiKumanovo.map((s) => {
   return {
     ...s, prosek: s.prosek + 1,
   };
 });
-const proseciOhridSkopje = [...ocenkiProsekOhrid, ...ocenkiProsekKumanovo];
-console.log(proseciOhridSkopje);
+const proseciOhridKummanovo = [...ocenkiProsekOhrid, ...ocenkiProsekKumanovo];
+console.log(proseciOhridKummanovo);
 
 
 
